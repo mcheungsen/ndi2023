@@ -1,0 +1,21 @@
+version: '3'
+services:
+  front:
+    build: 
+      context: front
+      dockerfile: Dockerfile    
+    ports:
+      - "3000:3000"  # Ports à exposer pour le front-end
+    # Autres configurations spécifiques au front-end si nécessaires
+    volumes:
+      - ./front/src:/app/src
+
+  back:
+    build: 
+      context: back
+      dockerfile: Dockerfile
+    ports:
+      - "3030:3030"  # Ports à exposer pour le back-end
+    # Autres configurations spécifiques au back-end si nécessaires
+    volumes:
+      - ./back/src:/app/src

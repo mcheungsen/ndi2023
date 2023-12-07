@@ -1,10 +1,10 @@
-const express = require('express');
+import express from 'express';
 const app = express();
-const PORT = 3000; // Choisissez le port que vous souhaitez utiliser
+const PORT = 3030; // Choisissez le port que vous souhaitez utiliser
 
 // Route pour la page 404
-app.get('*', (req, res) => {
-  res.status(404).send('Page introuvable');
+app.get('/', (req, res) => {
+  res.status(200).send('hello ');
 });
 
 // Démarrer le serveur
