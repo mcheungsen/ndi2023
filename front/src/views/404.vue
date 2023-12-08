@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <template>
-    <h1>404</h1>
+    <h1>404 Tetris</h1>
     <button id="start-button">Start</button>
     <!-- Utiliser gridElement.value pour lier l'élément grid -->
     <div id="container">

@@ -24,9 +24,6 @@ export default {
           <a class="nav--link" href="/about">About</a>
         </li>
         <li class="nav-li">
-          <a class="nav--link" href="/rythm">Rythm</a>
-        </li>
-        <li class="nav-li">
           <a class="nav--link" href="/ecology">Ecology</a>
         </li>
         <li class="nav-li">
